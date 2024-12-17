@@ -8,7 +8,7 @@ RUN go mod download
 
 COPY . ./
 
-RUN go build -o 
+RUN go build -o passwordzipper
 
 EXPOSE 8080
 
